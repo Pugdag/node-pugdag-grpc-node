@@ -17,7 +17,7 @@
     "prepublishOnly": "rm -rf ./dist && rm -f package-lock.json && npm install --also=dev && tsc"
   },
   "dependencies": {
-    "@pugdag/grpc": "github/Pugdag/node-pugdag-grpc"
+    "@pugdag/grpc": "github:Pugdag/node-pugdag-grpc"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
